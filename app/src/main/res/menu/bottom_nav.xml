@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Trang chủ"
+        android:id="@+id/home"
+        android:icon="@drawable/icon_home_sellector"/>
+    <item android:title="Bán hàng"
+        android:id="@+id/sell"
+        android:icon="@drawable/icon_sell_sellector"/>
+    <item android:title="Chăm sóc ĐBH"
+        android:id="@+id/support"
+        android:icon="@drawable/icon_support_sellector"/>
+    <item android:title="QL Thuê bao"
+        android:id="@+id/manage"
+        android:icon="@drawable/icon_manage_sellector"/>
+</menu>

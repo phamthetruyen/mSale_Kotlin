@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/side_home"
+            android:title="Trang chủ" />
+    </group>
+
+
+    <group
+        android:id="@+id/group_three"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/bottombar_banhang_ac"
+            android:title="Bán hàng" />
+    </group>
+    <group
+        android:id="@+id/group_four"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/bottombar_diembh_ac"
+            android:title="Chăm sóc ĐBH" />
+    </group>
+    <group
+        android:id="@+id/group_five"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/bottombar_chamsocthuebao_ac"
+            android:title="QL Thuê bao" />
+    </group>
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/side_logout"
+            android:title="Log out" />
+    </group>
+</menu>
